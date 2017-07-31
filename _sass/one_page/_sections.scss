@@ -1,20 +1,11 @@
-.welcome {
-  background-image: url('welcome.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	
-  .background {
-    position: relative;
-	  height: 100%;
-		width: 100%;
-		padding-top: 65px;
-		padding-bottom: 45px;
+.parallax-welcome { background-image: url('welcome.jpg'); }
+.parallax-chef { background-image: url('chef.jpg'); }
 
-		background-color: 000;
-    opacity: 0.85;
-		
-		color: #FFF;
-		text-align: center;
-  }
+.welcome {
+	position: absolute;
+	top: 25%;
+	width: 60%;
+	margin: 0 auto;
+	color: $white;
+	text-align: center;
 }
